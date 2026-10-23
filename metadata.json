@@ -1,0 +1,6 @@
+{
+  "name": "Beyond Cleaning 24",
+  "description": "Premium commercial cleaning and disinfection services serving Friant, California and surrounding commercial facilities. Request a free facility evaluation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

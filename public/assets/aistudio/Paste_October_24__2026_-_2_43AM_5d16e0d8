@@ -1,0 +1,1263 @@
+# MASTER WEBSITE DEVELOPMENT PROMPT
+## Beyond Cleaning 24
+### Premium Commercial Cleaning & Disinfection Website
+
+## 1. PROJECT OVERVIEW
+
+Act as an award-winning UI/UX designer, senior full-stack developer, SEO strategist, conversion optimization expert, and AI chatbot engineer.
+
+Build a complete, premium website for **Beyond Cleaning 24**, a commercial cleaning and disinfection company serving the Friant, California area.
+
+The website should look like a professionally designed, high-end digital experience worth $20,000 or more.
+
+It must communicate cleanliness, professionalism, reliability, accountability, and attention to detail.
+
+Do not create a generic cleaning company template. Build a distinctive, visually sophisticated website that combines bold branding, elegant typography, high-quality photography, thoughtful animations, and conversion-focused layouts.
+
+The website's primary goals are:
+- Generate commercial cleaning inquiries.
+- Encourage businesses to request a free facility evaluation.
+- Generate quote requests.
+- Make telephone contact easy.
+- Explain the company's cleaning services.
+- Convert website visitors into qualified leads.
+- Provide an AI-powered customer support experience.
+
+### Business Information
+
+Business Name: Beyond Cleaning 24
+
+Tagline from the supplied logo: Cleaning & Disinfection with Perfection
+
+Location: Serving the Friant, California area.
+
+Business Category: Commercial Cleaning and Disinfection.
+
+Business Hours: Listed as open 24 hours, seven days a week. Confirm availability and whether all services can be scheduled around the clock before publishing specific service commitments.
+
+Business Rating: 5.0 out of 5 based on 1 review, according to the supplied business listing.
+
+Free Evaluation: Advertised in the supplied business profile.
+
+Website Language: English initially, with the option to add Spanish if the company confirms that it supports Spanish-speaking customers.
+
+### Primary Services
+
+- Commercial Deep Cleaning.
+- Janitorial Services.
+- Commercial Move-In and Move-Out Cleaning.
+- Office Cleaning.
+- Retail Store Cleaning.
+- Restaurant Cleaning.
+- Post-Construction Cleaning.
+- Commercial Standard Cleaning.
+- Commercial Disinfection.
+
+Only advertise services that the business confirms it currently provides.
+
+Do not invent certifications, insurance coverage, licenses, industry accreditations, client names, or guarantees.
+
+---
+
+# 2. CRITICAL REQUIREMENT: USE THE PROVIDED LOGO
+
+The client has supplied the official Beyond Cleaning 24 logo.
+
+Use this logo as the primary brand identity throughout the website.
+
+Do not redesign, replace, distort, crop, or recolor the logo.
+
+Maintain its proportions and visual integrity.
+
+Create the website's complete visual system around the logo's existing colors.
+
+## Official Brand Color Direction
+
+The supplied logo establishes three primary visual elements:
+
+### Primary Orange
+Approximate reference: #F45123
+
+Use for:
+- Primary CTA buttons.
+- Important highlights.
+- Selected icons.
+- Small decorative accents.
+- Active navigation indicators.
+- Important conversion elements.
+
+### Dark Charcoal
+Approximate reference: #1C2028
+
+Use for:
+- Main headings.
+- Dark backgrounds.
+- Footer.
+- Premium navigation elements.
+- Service section backgrounds.
+
+### Black
+Reference: #000000
+
+Use selectively for:
+- High-contrast backgrounds.
+- Premium visual sections.
+- Logo-compatible design elements.
+
+### Supporting Colors
+
+Warm White: #FFFFFF
+
+Soft Off-White: #F7F7F8
+
+Light Gray: #ECEEF1
+
+Medium Gray: #6B7280
+
+Use white and light gray to create clean content areas and improve readability.
+
+**Important:** The orange, charcoal, and black combination must remain the primary brand identity. Do not introduce green as a dominant color. Do not use generic blue gradients or unrelated colors that conflict with the uploaded logo.
+
+Before implementation, inspect the supplied logo and sample its actual colors. Use the sampled colors as the final source of truth if they differ slightly from the approximate references above.
+
+## Brand Personality
+
+The website should feel:
+- Premium.
+- Professional.
+- Modern.
+- Trustworthy.
+- Precise.
+- Clean.
+- Commercially focused.
+- Detail-oriented.
+
+Avoid excessive rounded cards, generic cleaning icons, cartoon illustrations, cheap stock templates, and unnecessary gradients.
+
+---
+
+# 3. PREMIUM VISUAL DESIGN
+
+Create a high-end commercial cleaning website with strong visual hierarchy.
+
+### Typography
+
+Use a combination of:
+- Manrope or Inter for body text.
+- A bold, modern sans-serif for major headings.
+
+Headings should be confident and clear.
+
+Use large, elegant typography without sacrificing readability.
+
+### Photography
+
+Use high-quality photographs showing:
+- Professional commercial cleaning teams.
+- Modern office environments.
+- Clean conference rooms.
+- Commercial floor cleaning.
+- Restaurant cleaning environments.
+- Retail interiors.
+- Post-construction cleaning.
+- Professional disinfection practices.
+- Detailed cleaning of surfaces and high-touch areas.
+
+Prioritize realistic commercial photography.
+
+Avoid images that depict unsafe chemical handling, inappropriate protective equipment, or unrealistic cleaning practices.
+
+Do not represent stock photographs as actual Beyond Cleaning 24 projects.
+
+### Design Details
+
+Use:
+- Bold orange CTA buttons.
+- Clean white content sections.
+- Dark charcoal feature sections.
+- Large editorial photographs.
+- Asymmetrical layouts.
+- Carefully spaced service grids.
+- Subtle transitions.
+- Refined hover effects.
+- Professional iconography.
+- Minimal decorative elements.
+- Strong mobile layouts.
+- Consistent margins and spacing.
+
+The design should feel like a premium commercial service brand, not a domestic house-cleaning website.
+
+---
+
+# 4. WEBSITE ARCHITECTURE
+
+Build the following pages.
+
+1. Home.
+2. About Beyond Cleaning 24.
+3. Commercial Cleaning Services.
+4. Commercial Deep Cleaning.
+5. Janitorial Services.
+6. Office Cleaning.
+7. Commercial Move-In and Move-Out Cleaning.
+8. Retail Store Cleaning.
+9. Restaurant Cleaning.
+10. Post-Construction Cleaning.
+11. Commercial Standard Cleaning.
+12. Commercial Disinfection.
+13. Industries We Serve.
+14. Service Areas.
+15. Our Projects.
+16. Reviews.
+17. Frequently Asked Questions.
+18. Request a Free Evaluation.
+19. Contact Us.
+20. Privacy Policy.
+21. Accessibility Statement.
+
+Every primary service must have a dedicated page.
+
+Each page must contain unique content, relevant imagery, a clear H1, unique metadata, useful FAQs, internal links, and a prominent conversion CTA.
+
+Do not create thin pages with duplicate content.
+
+Only publish complete pages for services the company confirms it provides.
+
+---
+
+# 5. HEADER AND NAVIGATION
+
+Create a premium, responsive header.
+
+### Desktop Navigation
+
+Left:
+- Official Beyond Cleaning 24 logo.
+
+Center:
+- Home.
+- About.
+- Services dropdown.
+- Industries.
+- Service Areas.
+- Projects.
+- Contact.
+
+Right:
+- Phone number, once verified.
+- Request a Free Evaluation button.
+
+Do not invent a phone number if it has not been supplied.
+
+The service dropdown should link to each dedicated service page.
+
+Use a clean, accessible dropdown with keyboard support.
+
+### Header Behavior
+
+Initially, use a transparent or dark overlay header when it improves the hero composition.
+
+On scroll, transition into a solid white or charcoal header depending on the page design.
+
+Ensure the logo remains legible.
+
+Use the original logo asset rather than recreating it with text.
+
+### Mobile Navigation
+
+Include:
+- Compact logo.
+- Mobile menu button.
+- Easy-to-tap navigation links.
+- Prominent estimate CTA.
+- Click-to-call action once the correct phone number is confirmed.
+
+Ensure no horizontal overflow.
+
+---
+
+# 6. HOMEPAGE
+
+## Section 1: Premium Hero
+
+Use a wide, high-quality image of a professional commercial cleaning team working in a modern office environment.
+
+The visual should communicate precision, trust, and professional standards.
+
+Use a charcoal overlay when needed for readability.
+
+Eyebrow:
+
+COMMERCIAL CLEANING & DISINFECTION
+
+H1:
+
+A Higher Standard of Clean for Your Business
+
+Supporting Copy:
+
+Create a cleaner, more professional environment with commercial cleaning and disinfection services tailored to your facility. Beyond Cleaning 24 helps businesses maintain their spaces with attention to detail, clear communication, and a focus on consistent service.
+
+Primary CTA:
+
+Request a Free Facility Evaluation
+
+Secondary CTA:
+
+Explore Our Services
+
+Supporting Trust Points:
+- Commercial Cleaning Solutions.
+- Flexible Scheduling Options.
+- Service Plans Tailored to Your Facility.
+
+Only describe flexible scheduling if confirmed by the business.
+
+Use orange for the primary CTA and charcoal for supporting design elements.
+
+The hero should feel bold, polished, and memorable.
+
+## Section 2: Business Introduction
+
+Eyebrow:
+
+BEYOND THE SURFACE
+
+H2:
+
+A Cleaner Space Makes a Stronger Impression
+
+Copy:
+
+A clean workplace influences how employees, visitors, customers, and business partners experience your facility.
+
+Beyond Cleaning 24 focuses on commercial cleaning and disinfection to help businesses maintain clean, orderly, and professional environments.
+
+From routine cleaning to more intensive facility cleaning projects, the right service begins with understanding your space, priorities, and operational requirements.
+
+CTA:
+
+Discover Beyond Cleaning 24
+
+Use an editorial split layout with a large photograph.
+
+## Section 3: Core Services
+
+H2:
+
+Commercial Cleaning Solutions Built Around Your Facility
+
+Supporting Copy:
+
+Explore cleaning services designed for different commercial environments and facility requirements.
+
+Create premium service cards.
+
+### Commercial Deep Cleaning
+
+Detailed cleaning for facilities that need attention beyond routine maintenance.
+
+CTA: Explore Deep Cleaning
+
+### Janitorial Services
+
+Cleaning support for businesses seeking ongoing facility maintenance.
+
+CTA: Explore Janitorial Services
+
+### Office Cleaning
+
+Professional cleaning for offices, meeting rooms, workspaces, and shared areas.
+
+CTA: Explore Office Cleaning
+
+### Commercial Move-In and Move-Out Cleaning
+
+Prepare commercial spaces for occupancy, handover, or a new stage of use.
+
+CTA: Explore Move-In and Move-Out Cleaning
+
+### Retail Store Cleaning
+
+Help maintain clean and presentable customer-facing retail environments.
+
+CTA: Explore Retail Cleaning
+
+### Restaurant Cleaning
+
+Cleaning services for restaurant environments, based on the facility's requirements and applicable service scope.
+
+CTA: Explore Restaurant Cleaning
+
+### Post-Construction Cleaning
+
+Cleaning support after construction or renovation work to address accumulated dust and debris within the agreed scope.
+
+CTA: Explore Post-Construction Cleaning
+
+### Commercial Disinfection
+
+Discuss appropriate disinfection services for relevant commercial environments.
+
+CTA: Explore Disinfection Services
+
+Each card must link to its dedicated service page.
+
+Use unique imagery for each service.
+
+Do not make unsupported claims about medical-grade disinfection, pathogen elimination, or regulatory compliance.
+
+## Section 4: Why Choose Beyond Cleaning 24?
+
+H2:
+
+Professional Cleaning With Attention to Detail
+
+Create six feature blocks.
+
+### Facility-Focused Approach
+
+Understand the requirements of each commercial space before recommending an appropriate service.
+
+### Clear Communication
+
+Make it easy for businesses to explain their cleaning needs and discuss service expectations.
+
+### Flexible Service Planning
+
+Discuss appropriate scheduling options around the customer's facility requirements and confirmed availability.
+
+### Commercial Cleaning Expertise
+
+Focus on the cleaning needs of professional environments rather than presenting the company as a generic residential cleaning service.
+
+### Attention to Detail
+
+Highlight the importance of consistent cleaning practices and orderly work areas.
+
+### Free Facility Evaluation
+
+Invite prospective customers to request an evaluation of their cleaning requirements.
+
+Do not invent client retention statistics, performance guarantees, or certifications.
+
+## Section 5: Industries We Serve
+
+H2:
+
+Cleaning Solutions for Professional Environments
+
+Create a sophisticated grid with the following industries:
+
+- Corporate Offices.
+- Retail Stores.
+- Restaurants.
+- Commercial Properties.
+- Newly Constructed or Renovated Spaces.
+- Other Eligible Commercial Facilities.
+
+Each industry card should link to the most relevant service page.
+
+Do not claim specialized healthcare, pharmaceutical, laboratory, or food-safety certification unless verified.
+
+## Section 6: Free Facility Evaluation
+
+Create a visually prominent orange-and-charcoal section.
+
+H2:
+
+Let's Evaluate Your Facility's Cleaning Needs
+
+Copy:
+
+Every commercial space has different cleaning requirements. Request a facility evaluation to discuss your environment, priorities, desired schedule, and the type of service that best fits your needs.
+
+CTA:
+
+Request Your Free Evaluation
+
+Create a secondary link:
+
+Explore Our Cleaning Services
+
+The evaluation form should be easy to access and mobile-friendly.
+
+Do not promise an exact appointment time or turnaround time unless confirmed.
+
+## Section 7: Our Process
+
+H2:
+
+A Clear Path to a Cleaner Facility
+
+Step 1: Tell Us About Your Facility
+
+Share the type of property, its general location, and your cleaning requirements.
+
+Step 2: Discuss Your Priorities
+
+Explain the cleaning tasks, areas of concern, and preferred scheduling arrangements.
+
+Step 3: Review the Proposed Scope
+
+Discuss the recommended services and the appropriate estimate.
+
+Step 4: Confirm the Service Plan
+
+Proceed with the agreed service scope and scheduling arrangements.
+
+Use a clean timeline with restrained animations.
+
+## Section 8: Project Gallery
+
+H2:
+
+A Closer Look at Professional Cleaning
+
+Create a premium image gallery with categories:
+- Office Cleaning.
+- Commercial Deep Cleaning.
+- Retail Cleaning.
+- Restaurant Cleaning.
+- Post-Construction Cleaning.
+- Disinfection Services.
+
+Use verified company project photographs wherever available.
+
+If genuine project photographs are unavailable, use illustrative commercial photography without suggesting that the work was completed by Beyond Cleaning 24.
+
+Do not invent customer names, project locations, or before-and-after claims.
+
+## Section 9: Customer Reviews
+
+H2:
+
+Built on Attention to Detail
+
+The supplied business profile reports a 5.0 out of 5 rating based on one review.
+
+If displaying this information, clearly attribute it to the original review platform and verify that it remains current.
+
+Do not describe a single review as evidence of hundreds of satisfied customers.
+
+Use authentic, verified customer testimonials only.
+
+If more reviews become available, update the section with accurate source attribution.
+
+CTA:
+
+View Customer Reviews
+
+## Section 10: Service Areas
+
+H2:
+
+Commercial Cleaning in Friant, California and Nearby Areas
+
+Copy:
+
+Looking for commercial cleaning services in the Friant, California area? Contact Beyond Cleaning 24 to discuss your facility and confirm whether your location is within the company's current service area.
+
+Create a clean service-area layout.
+
+Use a map only after verifying the appropriate business location.
+
+Do not invent nearby service areas or physical office locations.
+
+CTA:
+
+Check Service Availability
+
+## Section 11: Frequently Asked Questions
+
+Create an accessible FAQ accordion.
+
+Include:
+- What types of commercial cleaning services do you offer?
+- Do you provide free facility evaluations?
+- Can you clean offices and retail stores?
+- Do you offer restaurant cleaning?
+- What does commercial deep cleaning include?
+- Do you provide janitorial services?
+- Can you clean commercial properties before move-in?
+- Do you offer post-construction cleaning?
+- Is commercial disinfection available?
+- Can cleaning be scheduled outside normal business hours?
+- Which areas do you serve?
+- How can I request a quote?
+
+Provide accurate answers based on verified business information.
+
+For scheduling and service coverage, direct customers to contact the company for confirmation.
+
+Do not invent prices, guarantees, or operating policies.
+
+## Section 12: Final Conversion CTA
+
+Create a bold, full-width section with a dark charcoal background and a professional commercial interior photograph.
+
+H2:
+
+Your Facility Deserves a Higher Standard of Clean
+
+Copy:
+
+Tell us about your commercial cleaning requirements and let Beyond Cleaning 24 help you explore the right service for your space.
+
+Primary CTA:
+
+Request a Free Evaluation
+
+Secondary CTA:
+
+Contact Our Team
+
+Use orange as the primary accent.
+
+## Section 13: Footer
+
+Include:
+- Original logo.
+- Business name.
+- Short company description.
+- Verified phone number and email.
+- Service page links.
+- Industries served.
+- Service area.
+- Request an Evaluation link.
+- Privacy Policy.
+- Accessibility Statement.
+- Verified social media links, if available.
+
+Use a premium charcoal footer with clean white typography and restrained orange highlights.
+
+---
+
+# 7. INDIVIDUAL SERVICE PAGES
+
+Build separate, complete pages for every primary service.
+
+Each page should include:
+- Unique SEO title.
+- Unique meta description.
+- One primary H1.
+- Relevant hero image.
+- Original content.
+- Service benefits.
+- Common customer concerns.
+- Explanation of the service process.
+- Useful FAQs.
+- Internal links.
+- A free evaluation CTA.
+
+## A. Commercial Deep Cleaning
+
+SEO Title:
+
+Commercial Deep Cleaning Services | Beyond Cleaning 24
+
+Meta Description:
+
+Explore commercial deep cleaning services from Beyond Cleaning 24. Request a facility evaluation to discuss your cleaning requirements.
+
+H1:
+
+Commercial Deep Cleaning for a More Thorough Clean
+
+Include:
+- Differences between routine cleaning and deep cleaning.
+- Areas that may require additional attention.
+- Facility-specific cleaning requirements.
+- Scheduling considerations.
+- How to request an evaluation.
+- FAQs.
+
+Do not promise complete elimination of every contaminant.
+
+## B. Janitorial Services
+
+SEO Title:
+
+Commercial Janitorial Services | Beyond Cleaning 24
+
+Meta Description:
+
+Explore janitorial services for commercial facilities. Contact Beyond Cleaning 24 to discuss your maintenance needs and request an evaluation.
+
+H1:
+
+Janitorial Services for Commercial Facilities
+
+Include:
+- Ongoing cleaning requirements.
+- Shared spaces and common areas.
+- Office and commercial environments.
+- Service scheduling considerations.
+- Scope-of-work planning.
+- FAQs.
+
+Do not advertise staffing arrangements or specific cleaning frequencies without confirmation.
+
+## C. Office Cleaning
+
+SEO Title:
+
+Office Cleaning Services | Beyond Cleaning 24
+
+Meta Description:
+
+Maintain a clean, professional workplace with office cleaning services from Beyond Cleaning 24. Request a facility evaluation.
+
+H1:
+
+Professional Office Cleaning
+
+Include:
+- Workstations and office surfaces.
+- Meeting rooms.
+- Shared spaces.
+- Reception areas.
+- Floor and surface cleaning within the agreed scope.
+- Scheduling considerations.
+- FAQs.
+
+Do not promise particular disinfection outcomes.
+
+## D. Commercial Move-In and Move-Out Cleaning
+
+SEO Title:
+
+Commercial Move-In and Move-Out Cleaning | Beyond Cleaning 24
+
+Meta Description:
+
+Prepare commercial properties for a new occupancy or handover with move-in and move-out cleaning services.
+
+H1:
+
+Commercial Move-In and Move-Out Cleaning
+
+Include:
+- Preparing spaces before occupancy.
+- Cleaning after previous occupants.
+- Surface and floor cleaning.
+- Property handover considerations.
+- Project scope.
+- FAQs.
+
+## E. Retail Store Cleaning
+
+SEO Title:
+
+Retail Store Cleaning Services | Beyond Cleaning 24
+
+Meta Description:
+
+Explore commercial cleaning for retail stores and customer-facing spaces. Request an evaluation from Beyond Cleaning 24.
+
+H1:
+
+Retail Cleaning for Professional Customer Environments
+
+Include:
+- Customer-facing areas.
+- Sales floors.
+- Checkout areas.
+- Shared surfaces.
+- Cleaning schedules based on operating requirements.
+- FAQs.
+
+Do not promise uninterrupted service while a store remains open.
+
+## F. Restaurant Cleaning
+
+SEO Title:
+
+Restaurant Cleaning Services | Beyond Cleaning 24
+
+Meta Description:
+
+Discuss commercial cleaning for restaurant environments with Beyond Cleaning 24. Request a facility evaluation.
+
+H1:
+
+Restaurant Cleaning Services
+
+Include:
+- Dining areas.
+- Floors and general surfaces.
+- Restroom cleaning where included in the service scope.
+- Cleaning requirements around business operations.
+- Scope clarification.
+- FAQs.
+
+Do not claim food-safety certification, specialized kitchen exhaust cleaning, or regulatory compliance unless verified.
+
+## G. Post-Construction Cleaning
+
+SEO Title:
+
+Post-Construction Cleaning Services | Beyond Cleaning 24
+
+Meta Description:
+
+Prepare commercial interiors after construction or renovation with post-construction cleaning services from Beyond Cleaning 24.
+
+H1:
+
+Post-Construction Cleaning for Commercial Spaces
+
+Include:
+- Dust and debris considerations.
+- Interior surface cleaning.
+- Floors and accessible areas.
+- Project coordination.
+- Site readiness.
+- Scope and estimate requirements.
+- FAQs.
+
+Do not claim hazardous material remediation or specialist construction cleanup unless confirmed.
+
+## H. Commercial Standard Cleaning
+
+SEO Title:
+
+Commercial Standard Cleaning | Beyond Cleaning 24
+
+Meta Description:
+
+Explore standard commercial cleaning for offices and other eligible facilities. Request a free evaluation from Beyond Cleaning 24.
+
+H1:
+
+Standard Commercial Cleaning for Everyday Facility Needs
+
+Include:
+- Routine cleaning requirements.
+- Shared spaces.
+- Surface cleaning.
+- Floor care within the agreed scope.
+- Cleaning frequency discussions.
+- FAQs.
+
+## I. Commercial Disinfection
+
+SEO Title:
+
+Commercial Disinfection Services | Beyond Cleaning 24
+
+Meta Description:
+
+Discuss commercial disinfection services with Beyond Cleaning 24 and request an evaluation for your facility.
+
+H1:
+
+Commercial Disinfection Solutions
+
+Include:
+- Differences between cleaning and disinfection.
+- Appropriate use of products according to their labels.
+- Facility-specific requirements.
+- Surface compatibility.
+- Customer communication.
+- FAQs.
+
+Never promise sterilization, universal pathogen elimination, or medical-grade results without verified evidence and appropriate qualifications.
+
+---
+
+# 8. AI CHATBOT
+
+Create a functional AI-powered chatbot.
+
+Name:
+
+Beyond Cleaning Virtual Assistant
+
+Personality:
+- Professional.
+- Friendly.
+- Clear.
+- Efficient.
+- Business-focused.
+
+The chatbot should:
+- Explain the company's listed services.
+- Help visitors select the appropriate service.
+- Answer questions about facility evaluations.
+- Collect estimate requests.
+- Direct customers to the correct service page.
+- Explain how to contact the company.
+- Provide information about service areas after verification.
+
+## Chat Interface
+
+Create a floating chat button in the bottom-right corner.
+
+Use the brand colors:
+- Orange: #F45123.
+- Charcoal: #1C2028.
+- White: #FFFFFF.
+
+Include:
+- Clean chat icon.
+- Welcome message.
+- Suggested questions.
+- Typing indicators.
+- Responsive conversation panel.
+- Accessible controls.
+- Clear success and error messages.
+
+Welcome message:
+
+Hello! Welcome to Beyond Cleaning 24. How can we help with your commercial cleaning needs today?
+
+Suggested questions:
+1. I need office cleaning.
+2. I need commercial deep cleaning.
+3. I need janitorial services.
+4. I need post-construction cleaning.
+5. I need restaurant or retail cleaning.
+6. I would like a free facility evaluation.
+
+## Lead Collection
+
+When a visitor requests an evaluation, collect:
+- Name.
+- Business name.
+- Email.
+- Phone number.
+- Facility type.
+- General location.
+- Required cleaning service.
+- Approximate facility size, if known.
+- Cleaning frequency or project timing.
+- Additional requirements.
+
+Ask questions conversationally rather than presenting a long form immediately.
+
+Provide a summary before submission.
+
+Include appropriate consent and privacy language.
+
+## Technical Requirements
+
+Integrate a real AI model using a secure backend.
+
+Requirements:
+- Server-side API integration.
+- Environment variables for credentials.
+- No exposed API keys.
+- Input validation.
+- Rate limiting.
+- Spam protection.
+- Appropriate error handling.
+- Privacy-conscious logging.
+- Secure lead submission.
+- Verified email or CRM integration.
+
+Do not fabricate prices, availability, business policies, or service guarantees.
+
+If the AI cannot answer confidently, it should recommend contacting the company.
+
+Do not claim a lead was submitted unless the backend confirms success.
+
+If email or API credentials are unavailable, keep them configurable and provide an honest fallback.
+
+---
+
+# 9. FREE FACILITY EVALUATION FORM
+
+Create a dedicated evaluation page.
+
+H1:
+
+Request a Free Commercial Cleaning Evaluation
+
+Supporting Copy:
+
+Tell us about your facility and cleaning requirements. Beyond Cleaning 24 can review your information and discuss the next steps.
+
+### Form Fields
+
+- Full Name.
+- Business Name.
+- Email Address.
+- Phone Number.
+- Facility Address or General Location.
+- Facility Type.
+- Approximate Facility Size.
+- Required Services.
+- Desired Cleaning Frequency.
+- Preferred Schedule.
+- Project Description.
+- Optional File Upload.
+- Consent Checkbox.
+
+Service options:
+- Commercial Deep Cleaning.
+- Janitorial Services.
+- Office Cleaning.
+- Move-In or Move-Out Cleaning.
+- Retail Store Cleaning.
+- Restaurant Cleaning.
+- Post-Construction Cleaning.
+- Commercial Standard Cleaning.
+- Commercial Disinfection.
+- Other.
+
+Implement:
+- Client-side and server-side validation.
+- Spam prevention.
+- Secure file upload restrictions.
+- Email notifications.
+- Confirmation page.
+- Accessible field labels.
+- Clear success and error messages.
+
+Make the form submission functional.
+
+Do not display a success message if the lead was not delivered successfully.
+
+---
+
+# 10. LOCAL SEO STRATEGY
+
+Optimize the website for relevant commercial cleaning searches in the confirmed service area.
+
+### Keyword Themes
+
+- Commercial cleaning Friant CA.
+- Office cleaning Friant CA.
+- Janitorial services Friant CA.
+- Commercial deep cleaning Friant CA.
+- Retail store cleaning Friant CA.
+- Restaurant cleaning Friant CA.
+- Post-construction cleaning Friant CA.
+- Commercial disinfection services Friant CA.
+
+Use these keywords naturally.
+
+Do not stuff every keyword into every paragraph.
+
+### On-Page SEO
+
+For every page:
+- Unique title tag.
+- Unique meta description.
+- One clear H1.
+- Logical H2 and H3 headings.
+- Helpful original content.
+- Contextual internal links.
+- Descriptive image filenames.
+- Accurate image alt text.
+- Canonical URLs.
+- Open Graph metadata.
+- Breadcrumb navigation where appropriate.
+
+### Technical SEO
+
+Implement:
+- XML sitemap.
+- Robots.txt.
+- Canonical tags.
+- Clean URLs.
+- Crawlable HTML content.
+- Responsive design.
+- Optimized images.
+- Valid structured data.
+- Search Console readiness.
+
+### Structured Data
+
+Use appropriate JSON-LD when supported and accurate:
+- Organization.
+- LocalBusiness.
+- Service.
+- WebSite.
+- WebPage.
+- BreadcrumbList.
+
+Only use verified company information.
+
+Do not invent:
+- A business address.
+- Geographic coordinates.
+- Phone numbers.
+- Opening hours.
+- Review counts.
+- Certifications.
+- Prices.
+- Social profiles.
+
+Do not claim that structured data guarantees rich search results.
+
+Do not create location pages for areas the business does not serve.
+
+---
+
+# 11. GOOGLE-FRIENDLY CONTENT STANDARDS
+
+All website content must help prospective customers understand the company's services.
+
+Prioritize:
+- Accurate information.
+- Useful service explanations.
+- Clear descriptions of the evaluation process.
+- Relevant FAQs.
+- Original content.
+- Transparent CTAs.
+- Authentic business photographs.
+- Consistent business information.
+
+Avoid:
+- Keyword stuffing.
+- Duplicate content.
+- Fake testimonials.
+- Unsupported superlatives.
+- Invented statistics.
+- Unverified certifications.
+- Unsupported disinfection claims.
+- Fake client logos.
+- False guarantees.
+
+Make all essential service information accessible through crawlable website pages.
+
+Do not rely on the chatbot as the only place where important business information appears.
+
+---
+
+# 12. PERFORMANCE AND ACCESSIBILITY
+
+Build for strong mobile and desktop performance.
+
+### Performance
+
+- Use WebP or AVIF images where supported.
+- Generate responsive image sizes.
+- Lazy-load appropriate below-the-fold images.
+- Optimize the hero image.
+- Minimize JavaScript.
+- Remove unused CSS.
+- Use efficient font loading.
+- Prevent layout shifts.
+- Avoid unnecessary third-party scripts.
+- Use caching and compression supported by the hosting platform.
+
+### Accessibility
+
+Aim for WCAG 2.2 AA.
+
+Implement:
+- Semantic HTML.
+- Keyboard-accessible navigation.
+- Visible focus indicators.
+- Proper form labels.
+- Sufficient color contrast.
+- Accessible chat controls.
+- Descriptive buttons.
+- Appropriate image alt text.
+- Reduced-motion support.
+
+### Development Quality
+
+Use a maintainable component-based architecture.
+
+Test:
+- Every page.
+- Every CTA.
+- All internal links.
+- Form submissions.
+- Email notifications.
+- Chatbot functionality.
+- Mobile navigation.
+- Responsive layouts.
+- Loading, success, and error states.
+
+---
+
+# 13. CONVERSION OPTIMIZATION
+
+The website should encourage business owners and facility managers to request an evaluation.
+
+Use consistent CTAs:
+- Request a Free Evaluation.
+- Explore Our Services.
+- Discuss Your Facility.
+- Contact Our Team.
+- Ask Our AI Assistant.
+
+Make contact details easy to find.
+
+Use concise forms and avoid unnecessary fields.
+
+Where analytics is configured, track:
+- Phone clicks.
+- Evaluation form starts.
+- Successful evaluation submissions.
+- Chatbot opens.
+- Qualified lead submissions.
+
+Do not count failed submissions as successful conversions.
+
+---
+
+# 14. FINAL QUALITY ASSURANCE
+
+Before delivery, confirm:
+
+### Branding
+- Original logo is used correctly.
+- Orange, charcoal, and black remain the dominant brand colors.
+- Typography is consistent.
+- Photography looks professional.
+- CTA colors match the brand.
+- No unrelated green or blue color scheme has been introduced.
+
+### Content
+- All primary service pages are complete.
+- Content is unique and useful.
+- Contact details are verified.
+- Review attribution is accurate.
+- No unsupported business claims appear.
+
+### Functionality
+- Navigation works.
+- Service pages load correctly.
+- Evaluation form submits successfully.
+- Email integration works.
+- Chatbot functions correctly.
+- Mobile layouts work.
+- Accessibility controls are usable.
+
+### SEO
+- Unique metadata exists on every page.
+- Heading hierarchy is correct.
+- Sitemap and robots.txt are configured.
+- Canonical URLs are valid.
+- Structured data contains accurate information.
+- Internal links work.
+
+### Performance
+- Images are optimized.
+- Mobile experience is fast.
+- Layout shifts are minimized.
+- Unnecessary scripts are removed.
+
+---
+
+# FINAL INSTRUCTION
+
+Build the complete Beyond Cleaning 24 website as a premium, custom-designed commercial cleaning experience.
+
+Use the uploaded client logo as the primary brand reference.
+
+The website's visual identity must follow the logo's orange, charcoal, and black palette throughout the navigation, hero, service cards, buttons, icons, forms, chatbot, and footer.
+
+Deliver a complete website rather than a homepage mockup.
+
+Include all primary service pages, original SEO-focused content, a functioning AI chatbot, a free facility evaluation form, responsive layouts, and technical SEO implementation.
+
+Where information is missing, use configurable fields or request clarification instead of inventing facts.
+
+The final result should feel like a professional digital agency created a bespoke website specifically for Beyond Cleaning 24.

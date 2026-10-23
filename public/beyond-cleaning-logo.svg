@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B3D"/>
+      <stop offset="100%" stop-color="#F45123"/>
+    </linearGradient>
+    <linearGradient id="charcoalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2A303C"/>
+      <stop offset="100%" stop-color="#1C2028"/>
+    </linearGradient>
+    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Brand Emblem: Dynamic Precision Shield & Spark of Perfection -->
+  <g transform="translate(15, 12)">
+    <!-- Shield / Spark Hexagon Base -->
+    <path d="M 45 4 L 80 24 L 80 72 L 45 92 L 10 72 L 10 24 Z" fill="url(#charcoalGrad)" stroke="#1C2028" stroke-width="2" filter="url(#subtleShadow)" />
+    
+    <!-- Bold Orange Dynamic Swoop / Disinfection Crest -->
+    <path d="M 20 48 C 20 30 35 16 52 16 C 68 16 80 27 80 27 C 80 27 68 23 54 23 C 38 23 27 34 27 48 C 27 62 38 73 54 73 C 68 73 78 68 78 68 C 78 68 68 79 50 79 C 34 79 20 66 20 48 Z" fill="url(#orangeGrad)" />
+    
+    <!-- Central Number '24' Crisp Monogram -->
+    <text x="45" y="55" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="25" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="-1">24</text>
+    
+    <!-- Precision Sparkling Clean Starbursts -->
+    <!-- Top-Right Sparkle -->
+    <path d="M 75 14 Q 75 8 81 8 Q 75 8 75 2 Q 75 8 69 8 Q 75 8 75 14 Z" fill="#F45123" />
+    <!-- Secondary Sparkle -->
+    <circle cx="85" cy="20" r="2.5" fill="#F45123" />
+    <circle cx="12" cy="76" r="2" fill="#F45123" />
+  </g>
+
+  <!-- Typography: BEYOND CLEANING 24 -->
+  <g transform="translate(125, 20)">
+    <!-- BEYOND CLEANING -->
+    <text x="0" y="42" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="34" font-weight="900" letter-spacing="-0.5" fill="currentColor">
+      BEYOND <tspan fill="#F45123">CLEANING</tspan>
+    </text>
+    
+    <!-- '24' badge accent in header text -->
+    <rect x="306" y="16" width="46" height="30" rx="4" fill="#F45123" />
+    <text x="329" y="38" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="20" font-weight="900" fill="#FFFFFF" text-anchor="middle">24</text>
+
+    <!-- Tagline: Cleaning & Disinfection with Perfection -->
+    <text x="2" y="68" font-family="'Inter', sans-serif" font-size="12" font-weight="700" letter-spacing="2.2" fill="#F45123" text-transform="uppercase">
+      Cleaning &amp; Disinfection with Perfection
+    </text>
+    
+    <!-- Commercial Divider Bar -->
+    <line x1="2" y1="76" x2="352" y2="76" stroke="#ECEEF1" stroke-width="1.5" stroke-opacity="0.4" />
+  </g>
+</svg>
