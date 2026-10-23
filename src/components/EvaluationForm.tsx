@@ -41,6 +41,17 @@ export const EvaluationForm: React.FC<EvaluationFormProps> = ({
     consent: false,
   });
 
+  React.useEffect(() => {
+    if (preselectedService) {
+      setFormData((prev) => ({
+        ...prev,
+        services: prev.services.includes(preselectedService)
+          ? prev.services
+          : [preselectedService, ...prev.services],
+      }));
+    }
+  }, [preselectedService]);
+
   const [uploadedFileName, setUploadedFileName] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
@@ -198,6 +209,7 @@ Serving Friant, California and surrounding commercial facilities.`;
     a.href = url;
     a.download = `${submittedData.referenceId}-Facility-Evaluation-Summary.txt`;
     a.click();
+    a.remove();
     URL.revokeObjectURL(url);
   };
 

@@ -1,4 +1,5 @@
-import express, { Request, Response } from 'express';
+import express from 'express';
+import type { Request, Response } from 'express';
 import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -109,20 +110,27 @@ app.post('/api/chat', async (req: Request, res: Response) => {
         }
         contents.push({ role: 'user', parts: [{ text: message }] });
 
-        const response = await ai.models.generateContent({
-          model: 'gemini-3.8-flash',
-          contents,
-          config: {
-            systemInstruction: SYSTEM_INSTRUCTION,
-            temperature: 0.6,
-            maxOutputTokens: 800,
-          },
-        });
+        const timeoutPromise = new Promise<never>((_, reject) =>
+          setTimeout(() => reject(new Error('AI request timed out')), 7000)
+        );
 
-        const reply = response.text || 'I would be happy to connect you with our facility specialist for a free evaluation in Friant, CA.';
+        const response: any = await Promise.race([
+          ai.models.generateContent({
+            model: 'gemini-3.8-flash',
+            contents,
+            config: {
+              systemInstruction: SYSTEM_INSTRUCTION,
+              temperature: 0.6,
+              maxOutputTokens: 800,
+            },
+          }),
+          timeoutPromise,
+        ]);
+
+        const reply = response?.text || 'I would be happy to connect you with our facility specialist for a free evaluation in Friant, CA.';
         return res.json({ reply });
       } catch (geminiError: any) {
-        console.warn('Gemini API call error, using domain assistant fallback:', geminiError?.message || geminiError);
+        console.warn('Gemini API call error or timeout, using domain assistant fallback:', geminiError?.message || geminiError);
         // Fallback to intelligent rule-based response
       }
     }

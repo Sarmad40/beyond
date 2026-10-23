@@ -70,15 +70,9 @@ export const Header: React.FC<HeaderProps> = ({ currentRoute, onNavigate, curren
   ];
 
   return (
-    <header
-      className={`sticky top-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? 'bg-white/95 backdrop-blur-md shadow-md text-[#1C2028] border-b border-gray-100'
-          : 'bg-[#1C2028] text-white border-b border-[#2A303C]'
-      }`}
-    >
+    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm text-[#1C2028] border-b border-gray-200 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-20 md:h-22">
           {/* Logo on Left */}
           <button
             onClick={() => navigateTo('home')}
@@ -86,8 +80,7 @@ export const Header: React.FC<HeaderProps> = ({ currentRoute, onNavigate, curren
             aria-label="Beyond Cleaning 24 Home"
           >
             <BrandLogo
-              theme={isScrolled ? 'light' : 'dark'}
-              showTagline={true}
+              theme="light"
               size="md"
             />
           </button>
@@ -104,9 +97,7 @@ export const Header: React.FC<HeaderProps> = ({ currentRoute, onNavigate, curren
                       className={`flex items-center gap-1 px-3 py-2 text-sm font-semibold rounded-md transition-colors ${
                         currentRoute.startsWith('service')
                           ? 'text-[#F45123] font-bold'
-                          : isScrolled
-                          ? 'text-[#1C2028] hover:text-[#F45123]'
-                          : 'text-gray-200 hover:text-white'
+                          : 'text-[#1C2028] hover:text-[#F45123]'
                       }`}
                       aria-expanded={servicesDropdownOpen}
                       aria-haspopup="true"
@@ -184,14 +175,12 @@ export const Header: React.FC<HeaderProps> = ({ currentRoute, onNavigate, curren
           <div className="hidden lg:flex items-center space-x-4">
             {/* Telephone Notice */}
             <div className="flex flex-col text-right">
-              <span className={`text-[11px] font-bold uppercase tracking-wider ${isScrolled ? 'text-gray-500' : 'text-gray-400'}`}>
+              <span className="text-[11px] font-bold uppercase tracking-wider text-gray-500">
                 {currentLang === 'es' ? 'Atención Comercial' : 'Direct Line'}
               </span>
               <button
                 onClick={() => navigateTo('contact')}
-                className={`text-xs font-semibold hover:text-[#F45123] transition-colors flex items-center gap-1 ${
-                  isScrolled ? 'text-[#1C2028]' : 'text-gray-200'
-                }`}
+                className="text-xs font-semibold hover:text-[#F45123] transition-colors flex items-center gap-1 text-[#1C2028]"
                 title="Phone line confirmed upon facility evaluation"
               >
                 <PhoneCall className="w-3 h-3 text-[#F45123]" />
@@ -220,9 +209,7 @@ export const Header: React.FC<HeaderProps> = ({ currentRoute, onNavigate, curren
 
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className={`p-2 rounded-lg ${
-                isScrolled ? 'text-gray-800 hover:bg-gray-100' : 'text-white hover:bg-[#2A303C]'
-              }`}
+              className="p-2 rounded-lg text-[#1C2028] hover:bg-gray-100"
               aria-label="Toggle Navigation Menu"
               aria-expanded={mobileMenuOpen}
             >

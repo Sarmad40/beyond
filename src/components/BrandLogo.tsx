@@ -15,9 +15,9 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
   const isDark = theme === 'dark';
 
   const heights = {
-    sm: 'h-10 md:h-11',
-    md: 'h-13 md:h-14',
-    lg: 'h-16 md:h-20',
+    sm: 'h-11 md:h-12',
+    md: 'h-14 md:h-16',
+    lg: 'h-20 md:h-24',
   };
 
   // Official logo image path provided by the client
@@ -29,7 +29,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
         <img
           src={logoSrc}
           alt="Beyond Cleaning 24 - Cleaning & Disinfection with Perfection"
-          className={`${heights[size]} w-auto object-contain max-w-[180px] sm:max-w-[210px]`}
+          className={`${heights[size]} w-auto object-contain max-w-[200px] sm:max-w-[240px]`}
           loading="eager"
         />
       </div>
@@ -41,7 +41,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
       <img
         src={logoSrc}
         alt="Beyond Cleaning 24 - Cleaning & Disinfection with Perfection"
-        className={`${heights[size]} w-auto object-contain max-w-[180px] sm:max-w-[210px]`}
+        className={`${heights[size]} w-auto object-contain max-w-[200px] sm:max-w-[240px]`}
         loading="eager"
       />
     </div>

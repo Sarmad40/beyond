@@ -241,6 +241,19 @@ export const AiChatbot: React.FC<AiChatbotProps> = ({
           setIsLoading(false);
         }
         return;
+      } else if (lower.includes('no') || lower.includes('cancel') || lower.includes('wait') || lower.includes('change')) {
+        setLeadMode('idle');
+        setIsLoading(false);
+        setMessages((prev) => [
+          ...prev,
+          {
+            id: `ast-${Date.now()}`,
+            sender: 'assistant',
+            text: "No problem at all! We won't submit the evaluation request. How else can I assist you with Beyond Cleaning 24's commercial services?",
+            timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+          },
+        ]);
+        return;
       }
     }
 
